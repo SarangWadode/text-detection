@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Homepage from './components/Homepage/index.jsx';
+import Upload from './components/Upload/index.jsx';
+import Result from './components/Result/index.jsx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Text Detection</h1>
+      {/* < Homepage /> */}
+      < Upload />
+      {/* < Result /> */}
     </div>
   );
 }
